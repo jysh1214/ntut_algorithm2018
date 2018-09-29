@@ -9,3 +9,15 @@
   - (c) Given that the modified algorithm runs in ![image](https://github.com/jysh1214/ntut_algorithm2018/blob/master/image/CodeCogsEqn_6.gif) worst-case time, what is the largest value of ![image](https://github.com/jysh1214/ntut_algorithm2018/blob/master/image/CodeCogsEqn_3.gif) as a function of ![image](https://github.com/jysh1214/ntut_algorithm2018/blob/master/image/CodeCogsEqn_7.gif) for which the modified algorithm has the same runnung time as standard merge sortr, in terms of ![image](https://github.com/jysh1214/ntut_algorithm2018/blob/master/image/CodeCogsEqn_8.gif)-notation.
   
   - (d) How should we choose ![image](https://github.com/jysh1214/ntut_algorithm2018/blob/master/image/CodeCogsEqn_3.gif) in practice?
+
+3. Please verify the following statements. If it is true, please show it; otherwise, give an argument to show the incorrectness.
+    
+    (a) ![image](https://github.com/jysh1214/ntut_algorithm2018/blob/master/image/3-1.gif)
+    
+    (b) ![image](https://github.com/jysh1214/ntut_algorithm2018/blob/master/image/3-2.gif)
+    
+4. We can extend the notation to the case of two parameters n and m that can go to infinity independently at different rates. For a given function ![image](https://github.com/jysh1214/ntut_algorithm2018/blob/master/image/4-1.gif)![image](https://github.com/jysh1214/ntut_algorithm2018/blob/master/image/4-2.gif) the set of functions
+
+![image](https://github.com/jysh1214/ntut_algorithm2018/blob/master/image/4-2.gif) = {f(n, m) : there exit positive constants c, n0, and m0 such that 0 <=f(n, m) <= c*g(n, m) for all n >= n0 or m >= m0}.
+
+   Give corresponding definitions for ![image](https://github.com/jysh1214/ntut_algorithm2018/blob/master/image/4-3.gif) and ![image](https://github.com/jysh1214/ntut_algorithm2018/blob/master/image/4-4.gif).
