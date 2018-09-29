@@ -18,6 +18,8 @@
     
 4. We can extend the notation to the case of two parameters n and m that can go to infinity independently at different rates. For a given function ![image](https://github.com/jysh1214/ntut_algorithm2018/blob/master/image/4-1.gif)![image](https://github.com/jysh1214/ntut_algorithm2018/blob/master/image/4-2.gif) the set of functions
 
-![image](https://github.com/jysh1214/ntut_algorithm2018/blob/master/image/4-2.gif) = {f(n, m) : there exit positive constants c, n0, and m0 such that 0 <=f(n, m) <= c*g(n, m) for all n >= n0 or m >= m0}.
+  ![image](https://github.com/jysh1214/ntut_algorithm2018/blob/master/image/4-2.gif) = {f(n, m) : there exit positive constants c, n0, and m0 such that 0 <=f(n, m) <= c*g(n, m) for all n >= n0 or m >= m0}.
 
-   Give corresponding definitions for ![image](https://github.com/jysh1214/ntut_algorithm2018/blob/master/image/4-3.gif) and ![image](https://github.com/jysh1214/ntut_algorithm2018/blob/master/image/4-4.gif).
+  Give corresponding definitions for ![image](https://github.com/jysh1214/ntut_algorithm2018/blob/master/image/4-3.gif) and ![image](https://github.com/jysh1214/ntut_algorithm2018/blob/master/image/4-4.gif).
+  
+5.Design an algorithm for computing ![image](https://github.com/jysh1214/ntut_algorithm2018/blob/master/image/5-1.gif) for any positive integer n. Besides assignment and comparsion, your algorithm may only use the four basic arithmetical operations. In your answer, you first describe the idea (approach) and then the pseudo-code. Further-more, please give a short explanation to claim that your algorithm is correct and what the time complexity of your algorithm is.
