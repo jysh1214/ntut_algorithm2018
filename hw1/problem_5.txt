@@ -1,27 +1,27 @@
 /*
     reference: https://www.codeproject.com/Articles/570700/SquareplusRootplusalgorithmplusforplusC
 */
-
-power_of_ten(b):
-    if(b>=0)
-        return 10^b
-    else
-        return (0.1)^b
-
-    
-sqrt(a);
-    z = a;
+   
+sqrt(a):
+    z = a
     rst = 0.0
     j = 1.0
     
     for(i = max_digit to 0){
-        if(z - (( 2 * rst ) + ( j * powerOfTen(i)))*( j * powerOfTen(i)) >= 0){
-            while( z - (( 2 * rst ) + ( j * powerOfTen(i)))*( j * powerOfTen(i)) >= 0){
+        if(z - (( 2 * rst ) + ( j * 10^i))*( j * 10^i) >= 0){
+            while( z - (( 2 * rst ) + ( j *10^i))*( j *10^i) >= 0){
                 j++
-                if(j >= 10) break}             
+                if(j >= max_digit) break}             
             j--
-            z -= (( 2 * rst ) + ( j * powerOfTen(i)))*( j * powerOfTen(i))
-            rst += j * powerOfTen(i)
-            j = 1.0}
+            z -= (( 2 * rst ) + ( j * 10^i))*( j * 10^i)
+            rst += j * 10^i
+            j = 1.0
+         }
      }
-                
+     
+     if(z - ((2 * rst) + (j * 10^i)) * (j * 10^i) >= 0) j++
+     j--
+     z -= ((2 * rst) + (j * 10^i)) * (j * 10^i)
+     rst += j * 10^i
+     
+     return rst
