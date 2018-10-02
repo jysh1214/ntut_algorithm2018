@@ -1,0 +1,14 @@
+insertion_sort(A):
+    if A.length <= 1:
+        return A
+        
+    key = A.last_element()
+    sorted = insertion_sort(A[1 ...A.length-1])
+    
+    for (i = sorted.length to 1) //insert key to sorted sequence
+        if sorted[i] >= key:
+            sorted[i+1] = sorted[i]
+        else
+            sorted[i+1] = key
+            
+    return sorted
