@@ -3,17 +3,17 @@
 */
    
 sqrt(a):
-    z = a
+    define max_digit
     rst = 0.0
     j = 1.0
     
     for(i = max_digit to 0){
-        if(z - (( 2 * rst ) + ( j * 10^i))*( j * 10^i) >= 0){
-            while( z - (( 2 * rst ) + ( j *10^i))*( j *10^i) >= 0){
+        if(a - (( 2 * rst ) + ( j * 10^i))*( j * 10^i) >= 0){
+            while( a - (( 2 * rst ) + ( j *10^i))*( j *10^i) >= 0){
                 j++
                 if(j >= max_digit) break}             
             j--
-            z -= (( 2 * rst ) + ( j * 10^i))*( j * 10^i)
+            a -= (( 2 * rst ) + ( j * 10^i))*( j * 10^i)
             rst += j * 10^i
             j = 1.0
          }
@@ -21,7 +21,7 @@ sqrt(a):
      
      if(z - ((2 * rst) + (j * 10^i)) * (j * 10^i) >= 0) j++
      j--
-     z -= ((2 * rst) + (j * 10^i)) * (j * 10^i)
+     a -= ((2 * rst) + (j * 10^i)) * (j * 10^i)
      rst += j * 10^i
      
      return rst
